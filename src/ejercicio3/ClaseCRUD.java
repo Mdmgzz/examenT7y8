@@ -61,5 +61,39 @@ public class ClaseCRUD {
 			pos = -1;
 		}
 		return pos;
+		
+		// metodo equals y metodo compare to
+//		@Override
+//		/**
+//		 * Para comparar dos objetos atendiendo a la camiseta y el nombre
+//		 * @return igual devuelve un booleano en true si la comparación se cumple
+//		 */
+//		public boolean equals(Object o) {
+//			boolean igual = false;
+//			// Igualamos el objeto al tipo de la clase; gracias Isa por explicar
+//			Futbolista jugador = (Futbolista) o;
+//			
+//			// La comparación en un if
+//			if (this.nombre.equalsIgnoreCase(jugador.nombre) && this.numero == jugador.numero) {
+//				igual = true;
+//			}
+//			return igual;
+//		}
+//
+//		@Override
+//		/**
+//		 * Metodo compareTo que ordena los jugadores
+//		 */
+//		public int compareTo(Object o) {
+//			
+//			int res;
+//			//Otro cast igualamos para poder compararlos ya que object es la clase padre de java
+//			Futbolista jugador= (Futbolista) o;	
+//			res = this.numero - jugador.numero;
+//			if (res == 0) {
+//				res = this.nombre.compareToIgnoreCase(jugador.nombre);
+//			}
+//			return res;
+//		}
 	}
 }
